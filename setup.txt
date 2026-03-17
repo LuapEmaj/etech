@@ -1,0 +1,30 @@
+pyhton install on vscode
++download from website get latest version
+-enable path
++VScode extenstions:
+-python
+-code runner
+Run:
+pip --version
+python --version
+Create Project
+Open cmd terminal on project folder
+Ctrl + ~
+Run:
+python -m venv venv
+.\venv\Scripts\activate
+pip install tensorflow matplotlib pandas numpy
+
+
+But Python 3.14 does not work, so I used Python 3.13
+
+how:
+
+I typed
+winget install Python.Python 3.13 
+In making the venv, I typed 
+python -3.13 -m venv venv
+.\venv\Scripts\activate
+pip install tensorflow matplotlib pandas numpy
+
+make sure to run .py files in the venv 
